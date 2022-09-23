@@ -1,9 +1,7 @@
 /*
-Ejemplo de 
-tipos de datos
+Ejemplos de 
+tipos de datos 
 en JavaScript
-
-Las variables son dinámicas, es decir, no hay que especificar el tipo de variable
 */
 // Tipo de dato string
 var nombre = 'Jose';
@@ -55,42 +53,3 @@ console.log(typeof x);
 // null = ausencia de valor  (tipo object)
 var y = null;
 console.log(typeof y);
-
-// array
-var coches = ["BMW","Audi","Volvo"];
-console.log(coches);
-console.log(typeof coches);
-
-// cadena vacía
-var z = '';
-console.log(z);
-console.log(typeof z);
-
-let nombre1 = 'Jose';
-let apellido = 'Gil';
-let nombreCompleto = nombre1 +' '+ apellido;
-console.log(nombreCompleto);
-
-let j = nombre1 + 3 + 24;
-console.log(j);
-
-// prioridad a los paréntesis
-j = nombre1 + (2+7);
-console.log(j);
-
-// se evalúa de izq a derecha
-j = 2 + 7 + nombre1;
-console.log(j);
-
-let nombre2;
-nombre = 'Jose';
-console.log(nombre2);
-
-// const NO SE PUEDE CAMBIAR SU VALOR
-const apellido2 = 'Gil';
-// apellido2 = "cdcd"; ESTO ES UN ERROR
-
-let a1nombreCompleto;
-let _nombreCompleto;
-let $nombreCompleto;
-//let 1nombreCompleto; no está permitido iniciar el nombre de una variable con numeros
