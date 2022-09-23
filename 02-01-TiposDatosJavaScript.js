@@ -80,3 +80,16 @@ console.log(j);
 // se evalúa de izq a derecha
 j = 2 + 7 + nombre1;
 console.log(j);
+
+// const NO SE PUEDE CAMBIAR SU VALOR
+let nombre2;
+nombre = 'Jose';
+console.log(nombre2);
+
+const apellido2 = 'Gil';
+// apellido2 = "cdcd"; ESTO ES UN ERROR
+
+let a1nombreCompleto;
+let _nombreCompleto;
+let $nombreCompleto;
+//let 1nombreCompleto; no está permitido iniciar el nombre de una variable con numeros
